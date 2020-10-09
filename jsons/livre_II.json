@@ -1,0 +1,21 @@
+{
+    "folder": "imitation",
+    "offset": 27,
+    "min": 84,
+    "max": 134,
+    "chapters": [
+        ["Frontispice", 84],
+        ["I. Rentrer en soy-même ; vivre & s’entretenir avec Jésus.", 85],
+        ["II. Souffrir humblement les médisances des hommes.", 91],
+        ["III. De la paix intérieure.", 93],
+        ["IV. De la pureté, & de la simplicité du cœur.", 96],
+        ["V. Ne s’occuper que de soy-même & de Dieu.", 98],
+        ["VI. De la joye d’une bonne conscience.", 100],
+        ["VII. Prendre Jésus pour unique amy.", 103],
+        ["VIII. Que l’amitié de Jésus est la source de tous les biens.", 105],
+        ["IX. Des dégousts & des sécheresses intérieures.", 109],
+        ["X. De l’humble reconnaissance des grâces de Dieu.", 116],
+        ["XI. Que pour suivre Jésus, il faut estre pauvre & dénué de tout.", 120],
+        ["XII. Porter sa Croix de bon cœur, & mourir à soy-même.", 123]
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "default": "avertissement",
+
+    "books": [
+        ["avertissement", "Titre, épître et avertissement"],
+        ["livre_I", "I. Avis pour une Âme qui veut se donner à Dieu."],
+        ["livre_II", "II. Du progrez de l’Âme dans la vie spirituelle."],
+        ["livre_III", "III. Dialogue entre Jésus-Christ & l’Âme, où est représenté tout ce qui se passe dans la vie intérieure."],
+        ["livre_IV", "IV. Du Très-adorable Sacrement de l’Autel, & de la manière de se bien préparer pour le recevoir."],
+        ["table", "Table et approbations"]
+    ],
+
+    "folders": {
+
+        "imitation":
+        ["De l’Imitation de Jésus-Christ, Traduction nouvelle, Par le Sieur De Beüil, Prieur de saint Val [Lemaistre de Sacy]. Vingt-cinquième Édition.",
+            "Bruxelles, Eugène Henry Fricx", 1686,
+            "imitation.pdf", {           
+        }]
+
+    }
+}

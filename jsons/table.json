@@ -1,0 +1,13 @@
+{
+    "folder": "imitation",
+    "offset": 31,
+    "min": 428,
+    "max": 440,
+    "chapters": [
+        ["Livre Premier.", 429],
+        ["Livre Second.", 431],
+        ["Livre Troisième.", 432],
+        ["Livre Quatrième.", 436],
+        ["Approbations.", 439]
+    ]
+}

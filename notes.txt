@@ -1,0 +1,5 @@
+& 'C:\Program Files\gs\gs9.50\bin\gswin64c.exe' -dNOPAUSE -dBATCH -sDEVICE=pnggray -r300 -sOutputFile='pngs\imitation\imitation-%00d.png' pdfs\imitation.pdf
+
+& 'C:\Program Files\gs\gs9.50\bin\gswin64c.exe' -dNOPAUSE -dBATCH -sDEVICE=pnggray -r300 -sOutputFile='pngs\imitation\imitation-73.png' pdfs\imitation-73.pdf
+
+Get-ChildItem -Path . -Filter *.png -Recurse | Foreach { optipng.exe $_.fullname }
