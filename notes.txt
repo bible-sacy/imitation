@@ -3,3 +3,19 @@
 & 'C:\Program Files\gs\gs9.50\bin\gswin64c.exe' -dNOPAUSE -dBATCH -sDEVICE=pnggray -r300 -sOutputFile='pngs\imitation\imitation-73.png' pdfs\imitation-73.pdf
 
 Get-ChildItem -Path . -Filter *.png -Recurse | Foreach { optipng.exe $_.fullname }
+
+
+Gravures :
+7
+25
+111
+163
+381
+
+& 'C:\Program Files\gs\gs9.50\bin\gswin64c.exe' -dNOPAUSE -dBATCH -sDEVICE=pnggray -r600 -sOutputFile='pngs\imitation\imitation-7.png' -dFirstPage=7 -dLastPage=7 pdfs\imitation.pdf 
+& 'C:\Program Files\gs\gs9.50\bin\gswin64c.exe' -dNOPAUSE -dBATCH -sDEVICE=pnggray -r600 -sOutputFile='pngs\imitation\imitation-25.png' -dFirstPage=25 -dLastPage=25 pdfs\imitation.pdf 
+& 'C:\Program Files\gs\gs9.50\bin\gswin64c.exe' -dNOPAUSE -dBATCH -sDEVICE=pnggray -r600 -sOutputFile='pngs\imitation\imitation-111.png' -dFirstPage=111 -dLastPage=111 pdfs\imitation.pdf 
+& 'C:\Program Files\gs\gs9.50\bin\gswin64c.exe' -dNOPAUSE -dBATCH -sDEVICE=pnggray -r600 -sOutputFile='pngs\imitation\imitation-163.png' -dFirstPage=163 -dLastPage=163 pdfs\imitation.pdf 
+& 'C:\Program Files\gs\gs9.50\bin\gswin64c.exe' -dNOPAUSE -dBATCH -sDEVICE=pnggray -r600 -sOutputFile='pngs\imitation\imitation-381.png' -dFirstPage=381 -dLastPage=381 pdfs\imitation.pdf 
+
+optipng.exe imitation-7.png imitation-25.png imitation-111.png imitation-163.png imitation-381.png imitation-73.png
