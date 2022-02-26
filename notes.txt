@@ -19,3 +19,6 @@ Gravures :
 & 'C:\Program Files\gs\gs9.50\bin\gswin64c.exe' -dNOPAUSE -dBATCH -sDEVICE=pnggray -r600 -sOutputFile='pngs\imitation\imitation-381.png' -dFirstPage=381 -dLastPage=381 pdfs\imitation.pdf 
 
 optipng.exe imitation-7.png imitation-25.png imitation-111.png imitation-163.png imitation-381.png imitation-73.png
+
+& 'C:\Program Files\gs\gs9.50\bin\gswin64c.exe' -sDEVICE=pdfwrite -dDEVICEWIDTHPOINTS=312 -dDEVICEHEIGHTPOINTS=510
+  -o output.pdf
